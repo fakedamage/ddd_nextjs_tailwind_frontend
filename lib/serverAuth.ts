@@ -1,4 +1,4 @@
-import { supabaseServer } from "@/shared/supabaseServer";
+import { supabaseServer } from "@/shared/infrastructure/supabaseServer";
 
 /** valida Bearer token no server e retorna user ou lança erro */
 export async function ensureValidTokenOrThrow(token?: string | null) {

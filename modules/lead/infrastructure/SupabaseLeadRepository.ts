@@ -1,6 +1,6 @@
 import { Lead } from "../domain/Lead";
 import { LeadRepository } from "../domain/LeadRepository";
-import { HttpClientServer } from "@/shared/HttpClientServer";
+import { HttpClientServer } from "@/shared/infrastructure/HttpClientServer";
 
 export class SupabaseLeadRepository implements LeadRepository {
   constructor(private client = new HttpClientServer()) {}

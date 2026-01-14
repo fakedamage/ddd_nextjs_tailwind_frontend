@@ -1,5 +1,4 @@
 import { supabaseServer } from "./supabaseServer";
-
 /**
  * HttpClientServer: wrapper para operações server (service_role ou server-auth)
  * Use este cliente dentro de repositórios server-side (Next API route / route handlers)
