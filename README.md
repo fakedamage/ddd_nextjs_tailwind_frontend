@@ -44,9 +44,8 @@ A arquitetura do projeto segue um padrão **DDD (Domain-Driven Design) simples e
 
 ## 🎥 Apresentação
 
-![Demo](https://raw.githubusercontent.com/fakedamage/ddd_nextjs_tailwind_frontend/master/docs/demo.mp4)
 👉 **Link:**  
-https://raw.githubusercontent.com/fakedamage/ddd_nextjs_tailwind_frontend/master/docs/demo.mp4
+https://ddd-nextjs-tailwind-frontend.vercel.app/demo
 
 ---
 
