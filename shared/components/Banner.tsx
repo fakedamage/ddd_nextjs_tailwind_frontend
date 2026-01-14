@@ -1,4 +1,3 @@
-// src/_shared/components/Banner.tsx
 "use client";
 import React from "react";
 import LeadForm from "@/modules/lead/components/LeadForm";

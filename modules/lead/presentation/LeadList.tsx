@@ -40,7 +40,7 @@ function ConfirmModal({
           </button>
           <button
             onClick={onConfirm}
-            className="px-3 py-1 rounded-full bg-red-600 text-black font-semibold"
+            className="px-3 py-1 rounded-full bg-red-600 text-white font-semibold"
             disabled={loading}
           >
             {loading ? 'Excluindo...' : 'Confirmar exclusão'}

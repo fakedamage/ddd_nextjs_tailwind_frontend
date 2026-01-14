@@ -9,6 +9,13 @@ export default function AuthAside() {
       </div>
 
       <div className="relative z-10 max-w-md text-center px-10">
+        <div className="flex items-center gap-4">
+          <img
+            src="https://motinfilms.com.br/motin-logo-white.webp?dpl=dpl_BNpMCDP13xRyHR28gDtjssxwFgRX"
+            alt="Motin Films"
+            className="h-10 w-auto"
+          />
+        </div>
         <h2 className="text-3xl font-bold mb-6 text-white">
           <span className="text-teal-400">Audiovisual</span> que gera impacto
         </h2>
