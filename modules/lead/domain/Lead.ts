@@ -1,4 +1,4 @@
-export type LeadNeed = "INSTITUTIONAL_FILMS" | "CORPORATE_EVENTS" | "CONTENT_FILMS";
+import { LeadNeedEnum } from "./LeadEnums";
 
 export class Lead {
   constructor(
@@ -6,11 +6,11 @@ export class Lead {
     public readonly name: string,
     public readonly email: string,
     public readonly phone: string | null,
-    public readonly need: LeadNeed,
+    public readonly need: LeadNeedEnum,
     public readonly createdAt: string
   ) {}
 
-  static create(data: { name: string; email: string; phone?: string | null; need: LeadNeed }) {
+  static create(data: { name: string; email: string; phone?: string | null; need: LeadNeedEnum }) {
     if (!data.email.includes("@")) throw new Error("Invalid email");
     if (!data.name) throw new Error("Invalid name");
     return new Lead(crypto.randomUUID(), data.name, data.email, data.phone ?? null, data.need, new Date().toISOString());

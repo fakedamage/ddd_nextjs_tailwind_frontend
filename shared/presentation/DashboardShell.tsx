@@ -33,7 +33,7 @@ export default function DashboardShell({ children }: { children: React.ReactNode
 
         <div className="flex items-center gap-3">
           <button onClick={() => router.push('/dashboard')} className="px-3 py-1 rounded-full bg-white/6 text-white">Dashboard</button>
-          <button onClick={handleLogout} className="px-3 py-1 rounded-full bg-red-600 text-white font-semibold">Logout</button>
+          <button onClick={handleLogout} className="px-3 py-1 rounded-full bg-red-600 text-white font-semibold cursor-pointer">Logout</button>
         </div>
       </header>
 
