@@ -42,6 +42,12 @@ A arquitetura do projeto segue um padrão **DDD (Domain-Driven Design) simples e
 
 ---
 
+## 🎥 Demonstração
+
+<video src="docs/demo.mp4" controls></video>
+
+---
+
 ## 🚀 Getting Started
 
 First, run the development server:
