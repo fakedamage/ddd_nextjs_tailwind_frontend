@@ -11,6 +11,13 @@ https://ddd-nextjs-tailwind-frontend.vercel.app/
 
 ---
 
+## Relatório performance
+
+👉 **Link:**  
+https://gtmetrix.com/reports/ddd-nextjs-tailwind-frontend.vercel.app/9lfmgjT2/
+
+---
+
 ## 📌 Sobre o Projeto
 
 Esta aplicação web foi desenvolvida para **captação e gerenciamento de leads**, além de **cadastro e autenticação de usuários**, servindo como painel administrativo para a Motin Films.
