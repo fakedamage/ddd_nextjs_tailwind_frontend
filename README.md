@@ -44,7 +44,11 @@ A arquitetura do projeto segue um padrão **DDD (Domain-Driven Design) simples e
 
 ## 🎥 Demonstração
 
-<video src="docs/demo.mp4" controls></video>
+<video
+  src="https://raw.githubusercontent.com/fakedamage/ddd_nextjs_tailwind_frontend/master/docs/demo.mp4"
+  controls
+  width="100%">
+</video>
 
 ---
 
