@@ -18,6 +18,14 @@ https://gtmetrix.com/reports/ddd-nextjs-tailwind-frontend.vercel.app/9lfmgjT2/
 
 ---
 
+
+## 🎥 Apresentação
+
+👉 **Link:**  
+https://ddd-nextjs-tailwind-frontend.vercel.app/demo
+
+---
+
 ## 📌 Sobre o Projeto
 
 Esta aplicação web foi desenvolvida para **captação e gerenciamento de leads**, além de **cadastro e autenticação de usuários**, servindo como painel administrativo para a Motin Films.
@@ -39,15 +47,6 @@ Esta aplicação web foi desenvolvida para **captação e gerenciamento de leads
   - Row Level Security (RLS)
 
 A arquitetura do projeto segue um padrão **DDD (Domain-Driven Design) simples e pragmático**, garantindo boa organização, escalabilidade e fácil manutenção.
-
----
-
-## 🎥 Apresentação
-
-👉 **Link:**  
-https://ddd-nextjs-tailwind-frontend.vercel.app/demo
-
----
 
 ## 🚀 Getting Started
 
