@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { SupabaseLeadRepository } from "@/modules/lead/infrastructure/SupabaseLeadRepository";
-import { CreateLeadUseCase } from "@/modules/lead/infrastructure/CreateLeadUseCase";
+import { CreateLeadUseCase } from "@/modules/lead/application/CreateLeadUseCase";
 import { ensureValidTokenOrThrow } from "@/lib/serverAuth";
 
 export async function POST(req: NextRequest) {

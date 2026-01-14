@@ -1,3 +1,4 @@
+import Link from "next/link";
 import RotatingText from "./RotatingText";
 
 export default function AuthAside() {
@@ -9,19 +10,22 @@ export default function AuthAside() {
       </div>
 
       <div className="relative z-10 max-w-md text-center px-10">
-        <div className="flex items-center gap-4">
+
+        <Link
+          href="/"
+        >
           <img
             src="https://motinfilms.com.br/motin-logo-white.webp?dpl=dpl_BNpMCDP13xRyHR28gDtjssxwFgRX"
             alt="Motin Films"
-            className="h-10 w-auto"
+            className="h-16 mx-auto mb-8 object-contain"
           />
-        </div>
+        </Link>
         <h2 className="text-3xl font-bold mb-6 text-white">
           <span className="text-teal-400">Audiovisual</span> que gera impacto
         </h2>
 
         <RotatingText />
       </div>
-    </aside>
+    </aside >
   );
 }
